@@ -1,0 +1,45 @@
+# ===== Backup workspace — jangan pernah commit yang di bawah ini =====
+# Secret & kredensial
+.env
+.env.*
+!.env.example
+**/config.js
+**/credentials.json
+**/credentials*.json
+!**/credentials.example.json
+**/token.json
+**/*.token
+.panel-token
+**/creds.json
+*.pem
+*.key
+
+# Session WhatsApp / Baileys (berisi kredensial login bot)
+**/sessions/
+**/sessions-*/
+**/*session*.json
+!**/lib/sessionSafe.js
+
+# Data runtime bot
+**/databases/
+**/bots/
+**/*.bak
+
+# Dependensi & build
+**/node_modules/
+**/__pycache__/
+**/.cache/
+**/coverage/
+**/dist/
+**/.next/
+
+# Log & temp
+**/*.log
+**/logs/
+**/tmp/
+.DS_Store
+
+# Arsip besar (sumbernya disimpan terpisah)
+*.zip
+*.tar.gz
+*.tgz
