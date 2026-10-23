@@ -43,3 +43,8 @@
 *.zip
 *.tar.gz
 *.tgz
+
+# Proyek arsip — TIDAK dibackup (keputusan Veo 2026-10-23)
+# legacy-bot berisi kunci API hardcode di file sumbernya;
+# jangan sampai terekspos ke repo publik ini.
+legacy-bot/
